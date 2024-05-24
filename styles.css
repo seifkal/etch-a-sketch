@@ -1,12 +1,48 @@
-.container{
+body{
     display: flex;
-    gap 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222831;
+}
+body,
+html {
+  height: 90%;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.header{
+    margin-bottom: 32px;
+    color: #eeeeee;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 32px;
+}
 .box{
+    flex-wrap: wrap;
     display: flex;
     width: 24px;
     height: 24px;
     border: 1px solid black;
+}
+.boxcontainer{
+    background-color: #0092ca;
+}
+.settings{
+
+}
+.slider{
+    display: flex;
+    flex-shrink: 1;
+    background: #393e46;
 }

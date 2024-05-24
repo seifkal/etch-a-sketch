@@ -31,15 +31,13 @@ html {
 .box{
     flex-wrap: wrap;
     display: flex;
-    width: 24px;
-    height: 24px;
-    border: 1px solid black;
+    width: 6px;
+    height: 6px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
 }
 .boxcontainer{
     background-color: #0092ca;
-}
-.settings{
-
 }
 .slider{
     display: flex;
